@@ -1,0 +1,23 @@
+form {
+    .form-outline {
+        input,textarea{
+            &.form-control{
+                &:focus{
+                    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25),0 3px 10px 0 rgba(0,0,0,.2)!important;
+                }
+                &:focus~.form-label{
+                    color: $primary;
+                }
+                &:focus~.form-notch{
+                    .form-notch-leading,
+                    .form-notch-middle,
+                    .form-notch-trailing {
+                        border-color: $primary;
+                    }
+                } 
+            }
+        }
+
+    }
+}
+

@@ -1,0 +1,185 @@
+.text-twitter {
+  color: $twitter;
+}
+.text-facebook {
+  color: $facebook;
+}
+.text-linkedin {
+  color: $linkedIn;
+}
+.text-youtube {
+  color: $youtube;
+}
+.text-whatsApp {
+  color: $whatsApp;
+}
+.text-vimeo {
+  color: $vimeo;
+}
+.text-xbox {
+  color: $xbox;
+}
+.text-spotify {
+  color: $spotify;
+}
+.text-houseparty {
+  color: $houseparty;
+}
+.text-github {
+  color: $github;
+}
+
+ul.socials {
+  padding: 0px;
+  margin: 0xp;
+  list-style-type: none;
+
+  li {
+    &.col {
+      background-color: #ffffff;
+      margin: 0px 15px;
+      padding: 0px;
+      margin-bottom: 15px;
+      border-radius:40px;
+    }
+    a {
+      background-color: #ffffff;
+      color: #ffffff !important;
+      width: 100%;
+      border: 0px;
+      margin: 0px;
+      margin-bottom: 0px !important;
+      padding-bottom: 10px;
+      border-radius:40px;
+      i {
+        font-size: 3.5em;
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+      span {
+        clear: both;
+        font-size: 1.1em;
+        display: block;
+        font-family: "Patrick Hand", cursive;
+     
+      }
+      &:hover,
+      &:active,
+      &:focus {
+        i,span{
+            &:hover,
+            &:active,
+            &:focus{
+              display: block;
+            }       
+        }
+      }
+      &.twitter {
+        background-color: $twitter;
+
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($twitter, 20%);
+        }
+      }
+      &.facebook {
+        background-color: $facebook;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($facebook, 20%);
+        }
+      }
+      &.linkedin {
+        background-color: $linkedIn;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($linkedIn, 20%);
+        }
+      }
+      &.spotify {
+        background-color: $spotify;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($spotify, 20%);
+        }
+      }
+      &.youtube {
+        background-color: $youtube;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($youtube, 20%);
+        }
+      }
+      &.whatsapp {
+        background-color: $whatsApp;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($whatsApp, 20%);
+        }
+      }
+      &.vimeo {
+        background-color: $vimeo;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($vimeo, 20%);
+        }
+      }
+      &.xbox {
+        background-color: $xbox;
+        &:hover,
+        &:active,
+        &:focus {
+          background-image: url(https://images-eds-ssl.xboxlive.com/image?url=KT_QTPJeC5ZpnbX.xahcbrZ9enA_IV9WfFEWIqHGUb5P30TpCdy9xIzUMuqZVCfbkmM1gZs.EMHXxZfwgKVe2.bGXSEIJwOOpM2Zmv2.dp6ccK6FHwZl_Pxoy4QViuMtL05SSiGc6aE50Lifodv.2mdxXg7s8G8EW57Sc2lVpKA-&format=jpg&h=253&w=253);
+          background-size: cover;
+        }
+      }
+      &.houseparty {
+        background-color: $houseparty;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: darken($houseparty, 20%);
+        }
+      }
+      &.github {
+        background-color: $github;
+        &:hover,
+        &:active,
+        &:focus {
+          background-color: $githubblue;
+        }
+      }
+      &.instagram {
+        @include instagram("text");
+        i {
+        }
+        &:hover,
+        &:active,
+        &:focus {
+          @include instagram("background");
+          color: #ffffff;
+        }
+      }
+      &.messenger {
+        background-color: $white;
+        @include messenger("text");
+        i {
+          text-shadow: 0px;
+        }
+        &:hover,
+        &:active,
+        &:focus {
+          @include messenger("background");
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

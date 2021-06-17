@@ -1,0 +1,36 @@
+@include media-breakpoint-down(sm) {
+    header.jumbotron {
+        height: 200px;
+        svg.wave {
+            bottom: 0px;
+        }
+        a.sitelogo {
+            position: relative;
+            top: 58px;
+            right: -128px;
+            border-radius: 50%;
+            img {
+                height: 130px;
+            }
+        }
+    }
+    body {
+        &.pagetype-cv {
+            div#cvdescription.card {
+                .card-body {
+                    p.card-text {
+                        height: initial;
+                        img {
+                            height: 150px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}
+// @include media-breakpoint-down(md) { ... }
+// @include media-breakpoint-down(lg) { ... }
+// @include media-breakpoint-down(xl) { ... }
+// @include media-breakpoint-down(xxl) { ... }

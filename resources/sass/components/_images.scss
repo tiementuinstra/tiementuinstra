@@ -1,0 +1,26 @@
+.imagegallery {
+    .card {
+        .card-title {
+            margin: 0px;
+        }
+    }
+}
+
+
+.lightbox{
+    .lb-outerContainer{}
+    .lb-dataContainer{
+        .lb-data{
+            .lb-details{
+                .lb-caption{
+                    font-family: "Nunito", sans-serif;
+                    font-size:1.2em;
+                    padding-top:5px;
+                }
+                .lb-number{
+                    display: none !important;
+                }
+            }
+        }
+    }
+}

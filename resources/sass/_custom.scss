@@ -1,0 +1,51 @@
+@import "components/badges";
+@import "components/buttons";
+@import "components/cards";
+@import "components/navbar";
+@import "components/jumbotron";
+@import "components/content";
+@import "components/socials";
+@import "components/footer";
+@import "components/forms";
+@import "components/images";
+@import "components/table";
+@import "mediaqueries";
+
+* {
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+}
+body {
+    color: $font-color;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #000;
+    font-family: "Nunito", sans-serif;
+}
+a {
+    color: $primary;
+    text-decoration: none;
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+footer.copyright-footer {
+    background-color: darken($primary, 20%);
+    color: lighten($primary, 40%);
+    a {
+        color: lighten($primary, 40%);
+        &:hover,
+        &:active,
+        &:focus {
+            color: darken($primary, 40%);
+        }
+    }
+}

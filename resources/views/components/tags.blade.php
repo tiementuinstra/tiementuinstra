@@ -1,0 +1,1 @@
+<span class="badge rounded-pill bg-primary shadow-1-strong">{{ $tag->name }}</span>

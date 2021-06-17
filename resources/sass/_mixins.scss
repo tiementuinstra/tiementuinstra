@@ -1,0 +1,39 @@
+@mixin instagram($type: "text") {
+  @if $type == "text" {
+    background: radial-gradient(
+      circle at 30% 107%,
+      $instagramyellow 0%,
+      $instagramorange 5%,
+      $instagrammagenta 45%,
+      $instagrampurple 60%,
+      $instagramblue 90%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } @else {
+    -webkit-text-fill-color: #ffffff;
+    color: #ffffff;
+    background: radial-gradient(
+      circle at 30% 107%,
+      $instagramyellow 0%,
+      $instagramorange 5%,
+      $instagrammagenta 45%,
+      $instagrampurple 60%,
+      $instagramblue 90%
+    );
+  }
+}
+
+@mixin messenger($type: "text") {
+  @if $type == "text" {
+    background: radial-gradient(circle at 30% 107%, $messengerblue 0%, $messengerlila 60%, $messengerred 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  } @else {
+    -webkit-text-fill-color: #ffffff;
+    color: #ffffff;
+    background: $messengerblue;
+  }
+}

@@ -1,0 +1,54 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Nunito", sans-serif;
+$font-size-base: 0.9rem;
+$font-color:#444;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+$primary: $green;
+$theme-colors: (
+  "primary": $green,
+);
+
+
+
+
+
+
+$twitter: #1da1f2 !default;
+$facebook: #1877f2 !default;
+$linkedIn: #007bb5 !default;
+$youtube: #ff0000 !default;
+$whatsApp: #25d366 !default;
+$vimeo: #1ab7ea !default;
+$xbox: #52b043 !default;
+$spotify: #1db954 !default;
+$houseparty: #ff004d !default;
+$github: #333 !default;
+$githubblue: #4078c0 !default;
+
+$messengerblue: #0084ff !default;
+$messengerturqoise: #44bec7 !default;
+$messengeryellow: #ffc300 !default;
+$messengerred: #fa3c4c !default;
+$messengerlila: #d696bb !default;
+
+$instagrammagenta: #c32aa3 !default;
+$instagramblue: #4c5fd7 !default;
+$instagrampurple: #7232bd !default;
+$instagramorange: #f46f30 !default;
+$instagramyellow: #ffdc7d !default;

@@ -1,0 +1,16 @@
+.card {
+    border: 0px;
+    border-radius:0.75em;
+    div.card-img-top {
+        background-size: cover;
+        height: 200px;
+    }
+    .card-body {
+        p.card-text {
+            height: 96px;
+        }
+        p.card-tags {
+            margin-bottom: 0px;
+        }
+    }
+}
